@@ -1,2 +1,2 @@
-name: test
-version: 0
+name: "default"
+info: "some msi default validation"
