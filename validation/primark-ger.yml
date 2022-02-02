@@ -3,26 +3,8 @@ registration:
   passportID:
     travelDocument:
       documentImage: mandatory
-      documentExpiryDate: optional
-      nationality: optional
-      dateOfBirth: optional
-      gender: optional
-    takeYourPhoto:
-      selfieImage: optional
   homeAddress:
     countryOfResidence: mandatory
-    street: optional
-    town: optional
     postalCode: disabled
     state: disabled
     proofOfResidenceImage: onlyIfDocumentCountryWithinEU|mandatory
-  refundDetails:
-    ncidHash: mandatory
-  travelDetails:
-    foo: bar
-  candidateSubmission:
-    marketingOptIn: optional
-viewEdit:
-  foo: bar
-misc:
-  preferredLanguage: "?"
